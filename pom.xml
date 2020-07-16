@@ -29,7 +29,7 @@
 			<url>https://github.com/arrowhead-f/client-library-java-spring/raw/master/client-mvn-repo</url>
 		</repository>
 		<repository>
-			<id>github</id>
+			<id>client-modbus-library-demo-WP1</id>
 			<url>https://maven.pkg.github.com/arrowhead-f/client-modbus-library-java-spring</url>
 		</repository>
 	</repositories>
@@ -37,6 +37,8 @@
 	<modules>
 		<module>client-modbus-plc</module>
 	    <module>client-modbus-remote-io</module>
+		<module>client-modbus-plc-demo-WP1</module>
+	    <module>client-modbus-plc-demo-production-WP1</module>
   	</modules>
 		
 	<dependencies>
