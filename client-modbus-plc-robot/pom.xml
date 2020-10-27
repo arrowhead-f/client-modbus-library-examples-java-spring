@@ -1,0 +1,30 @@
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<properties>
+	    <maven.jar.version>3.0.2</maven.jar.version>
+	</properties>
+	
+	<parent>
+    	<groupId>eu.arrowhead</groupId>
+    	<artifactId>client-modbus-library-examples</artifactId>
+    	<version>4.1.3.0</version>
+  	</parent>
+	
+	<artifactId>arrowhead-client-modbus-plc-robot</artifactId>
+	<name>Arrowhead Modbus PLC Robot</name>
+	
+	<build>
+		<plugins>
+			<plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>1.6.0</version>
+                <configuration>
+                    <mainClass>de.twt.client.modbus.plcRobot.AppPLCRobot</mainClass>
+                </configuration>
+            </plugin>
+		</plugins>
+	</build>	
+</project>
+
